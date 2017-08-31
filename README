@@ -2,15 +2,13 @@
 % Learning and Extraction of Acoustic Patterns (LEAP) Lab
 % Indian Institute of Science, Bangalore, India
 % {purvi_agrawal,sriram}@ee.iisc.ernet.in
-%
+%******************************************************************
 % 31-Aug-2017
 % See the file LISCENSE for the licence associated with this software.
-
+%******************************************************************
 Ref:
 1. P. Agrawal, S. Ganapathy, “Unsupervised Modulation Filter Learning for Noise-Robust Speech Recognition,” accepted for publication in Journal of Acoustical Society of America, EL, 2017.
-
 ******************************************************************
-
 Description:
 
 The folder contains the MATLAB codes to extract features using unsupervised data- driven modulation filtering approach.
@@ -31,9 +29,9 @@ Sequence to run :
 4. Four_hidden_prob_avg.m
 5. Five_example_feature_extraction_speech_forASR.m
 
-ACKNOWLEDGEMENTS
+Acknowledgements:
 
-% SOME OF THE FUNCTIONS IN THIS IMPLEMENTATION MODIFY THE ORIGINAL IMPLMENTATION BY PENG QI
+% Some of the functions in this implementation modify the original implementation by PENG QI
 %   Original code can be found at : http://qipeng.me/software/convolutional-rbm.html
 %   https://github.com/qipeng/convolutionalRBM.m. 
 % For research / personal purposes only.
