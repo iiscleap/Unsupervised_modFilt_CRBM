@@ -41,7 +41,7 @@ inList = 'sourceFile_wav_spec.txt';
 % hh = 1-hh;
 % F = [0:num_taps-1]/num_taps;
 % w_scale1 = firls(num_taps-1,F,hh);
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% For 3rd Scale filter learning (otherwise comment this section)
 
 % % load previous learned filters - 1st and 2nd
@@ -55,7 +55,7 @@ inList = 'sourceFile_wav_spec.txt';
 % hh = 1-hh;
 % F = [0:num_taps-1]/num_taps;
 % w_scale2 = firls(num_taps-1,F,hh);
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 
 total_feat = length(outSpec);
 count_of_total_frames = 0;
