@@ -1,5 +1,18 @@
-# Unsupervised_modFilt_CRBM
-The folder contains the MATLAB codes to extract features using unsupervised data- driven modulation filtering approach (for noise robust speech recognition system).
+%*****************************************************************
+% Purvi Agrawal and Sriram Ganapathy
+% Learning and Extraction of Acoustic Patterns (LEAP) Lab
+% Indian Institute of Science, Bangalore, India
+% {purvi_agrawal,sriram}@ee.iisc.ernet.in
+%*****************************************************************
+% 31-Aug-2017
+% See the file LISCENSE for the licence associated with this software.
+******************************************************************
+Ref:
+1. P. Agrawal, S. Ganapathy, “Unsupervised Modulation Filter Learning for Noise-Robust Speech Recognition,” accepted for publication in Journal of Acoustical Society of America, EL, 2017.
+******************************************************************
+Description:
+
+The folder contains the MATLAB codes to extract features using unsupervised data- driven modulation filtering approach.
 
 - The modulation filters (rate and scale separately) are learned from mel spectrograms 
   using Convolutional Restricted Boltzmann Machine (CRBM).
