@@ -1,3 +1,4 @@
+%******************************************************************
 % Purvi Agrawal and Sriram Ganapathy
 % Learning and Extraction of Acoustic Patterns (LEAP) Lab
 % Indian Institute of Science, Bangalore, India
@@ -33,7 +34,7 @@ The reference wav files, spectrograms and few codes are saved in compressed fold
 
 Acknowledgements:
 
-% Some of the functions in this implementation modify the original implementation by PENG QI
+%   Some of the functions in this implementation modify the original implementation by PENG QI
 %   Original code can be found at : http://qipeng.me/software/convolutional-rbm.html
 %   https://github.com/qipeng/convolutionalRBM.m. 
-% For research / personal purposes only.
+%   For research / personal purposes only.
