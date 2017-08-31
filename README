@@ -30,3 +30,10 @@ Sequence to run :
 3. Three_example_filtSelection_validation.m
 4. Four_hidden_prob_avg.m
 5. Five_example_feature_extraction_speech_forASR.m
+
+ACKNOWLEDGEMENTS
+
+% SOME OF THE FUNCTIONS IN THIS IMPLEMENTATION MODIFY THE ORIGINAL IMPLMENTATION BY PENG QI
+%   Original code can be found at : http://qipeng.me/software/convolutional-rbm.html
+%   https://github.com/qipeng/convolutionalRBM.m. 
+% For research / personal purposes only.
