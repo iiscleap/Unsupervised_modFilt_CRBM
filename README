@@ -4,10 +4,10 @@
 % {purvi_agrawal,sriram}@ee.iisc.ernet.in
 %******************************************************************
 % 31-Aug-2017
-% See the file LISCENSE for the licence associated with this software.
+% See the file LICENSE for the licence associated with this software.
 %******************************************************************
 Ref:
-1. P. Agrawal, S. Ganapathy, “Unsupervised Modulation Filter Learning for Noise-Robust Speech Recognition,” accepted for publication in Journal of Acoustical Society of America, EL, 2017.
+1. P. Agrawal, S. Ganapathy, “Unsupervised Modulation Filter Learning for Noise-Robust Speech Recognition,” to be published in Journal of Acoustical Society of America, EL, 2017.
 ******************************************************************
 Description:
 
@@ -28,6 +28,8 @@ Sequence to run :
 3. Three_example_filtSelection_validation.m
 4. Four_hidden_prob_avg.m
 5. Five_example_feature_extraction_speech_forASR.m
+
+The reference wav files, spectrograms and few codes are saved in compressed folders.
 
 Acknowledgements:
 
