@@ -1,14 +1,14 @@
 *****************************************************************
 
-Purvi Agrawal and Sriram Ganapathy
-Learning and Extraction of Acoustic Patterns (LEAP) Lab
-Indian Institute of Science, Bangalore, India
-{purvi_agrawal,sriram}@ee.iisc.ernet.in
+- Purvi Agrawal and Sriram Ganapathy
+- Learning and Extraction of Acoustic Patterns (LEAP) Lab
+- Indian Institute of Science, Bangalore, India
+- {purvi_agrawal,sriram}@ee.iisc.ernet.in
 
 *****************************************************************
 
-31-Aug-2017
-See the file LISCENSE for the licence associated with this software.
+- 31-Aug-2017
+- See the file LISCENSE for the licence associated with this software.
 
 ******************************************************************
 
