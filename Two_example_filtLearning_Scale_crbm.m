@@ -71,11 +71,11 @@ for k = 1:total_feat
         feat{1,k} = mel_spec_feat'; % save in dimension of (no. of frames x no. of freq bands)
                 
         %%%% For 2nd Scale filter learning   (otherwise comment next line)     
-%         feat{1,count_of_feat} = aud2cor_dataMod_scale(mel_spec_feat,w_scale1); % save in dimension of (no. of frames x no. of freq bands)
+%         feat{1,k} = aud2cor_dataMod_scale(mel_spec_feat,w_scale1); % save in dimension of (no. of frames x no. of freq bands)
         
          %%%% For 3rd Scale filter learning (otherwise comment next 2 lines)
 %         temp = aud2cor_dataMod_scale(mel_spec_feat,w_scale1);
-%         feat{1,count_of_feat} =  aud2cor_dataMod_scale(temp',w_scale2);
+%         feat{1,k} =  aud2cor_dataMod_scale(temp',w_scale2);
 
 end
 
@@ -97,6 +97,6 @@ clear data2
 % Compile mex files
 make(0);
 
-params = getparams; % check the parameters of CRBM to be used
+params = getparams_scale; % check the parameters of CRBM to be used
 params.verbose = 4;
 [model ~] = trainCRBM_Scale(data, params);
