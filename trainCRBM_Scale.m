@@ -201,7 +201,7 @@ for iter = model.iter+1:param_iter,
         %% mean field hidden update
         
         neghidacts = convs(recon, model_W, useCuda);
-        neghidprobs = poolH_matlab(neghidacts / model.sigma, model_hbias / model.sigma, p);
+        neghidprobs = poolHidden(neghidacts / model.sigma, model_hbias / model.sigma, p, useCuda);
             
         if (params.verbose > 1),
             fprintf('.');
