@@ -68,11 +68,11 @@ for k = 1:total_feat
         feat{1,k} = mel_spec_feat'; % save in dimension of (no. of frames x no. of freq bands)
                 
         %%%% For 2nd Rate filter learning   (otherwise comment next line)     
-%         feat{1,count_of_feat} = aud2cor_dataMod_rate(mel_spec_feat',w_rate1); % save in dimension of (no. of frames x no. of freq bands)
+%         feat{1,k} = aud2cor_dataMod_rate(mel_spec_feat',w_rate1); % save in dimension of (no. of frames x no. of freq bands)
         
          %%%% For 3rd Rate filter learning (otherwise comment next 2 lines)
 %         temp = aud2cor_dataMod_rate(mel_spec_feat',w_rate1);
-%         feat{1,count_of_feat} =  aud2cor_dataMod_rate(temp,w_rate2);  % save in dimension of (no. of frames x no. of freq bands)
+%         feat{1,k} =  aud2cor_dataMod_rate(temp,w_rate2);  % save in dimension of (no. of frames x no. of freq bands)
 
 end
 
@@ -109,6 +109,6 @@ clear data2
 % Compile mex files
 make(0);
 
-params = getparams;  % check the parameters of CRBM to be used
+params = getparams_rate;  % check the parameters of CRBM to be used
 params.verbose = 4;
 [model ~] = trainCRBM_Rate(data, params);
