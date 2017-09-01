@@ -142,8 +142,8 @@ for iter = model.iter+1:param_iter,
         
         poshidacts = convs(recon, model_W, useCuda);
 
-%         [poshidprobs, pospoolprobs, poshidstates] = poolHidden(poshidacts / model.sigma, model_hbias / model.sigma, p, useCuda);
-         [poshidprobs, pospoolprobs, poshidstates] = poolH_matlab(poshidacts / model.sigma, model_hbias / model.sigma, p);
+         [poshidprobs, pospoolprobs, poshidstates] = poolHidden(poshidacts / model.sigma, model_hbias / model.sigma, p, useCuda);
+%        [poshidprobs, pospoolprobs, poshidstates] = poolH_matlab(poshidacts / model.sigma, model_hbias / model.sigma, p);
      
         %% negative phase
         
@@ -164,7 +164,7 @@ for iter = model.iter+1:param_iter,
         %% mean field hidden update
         
         neghidacts = convs(recon, model_W, useCuda);
-        neghidprobs = poolH_matlab(neghidacts / model.sigma, model_hbias / model.sigma, p);
+        neghidprobs = poolHidden(neghidacts / model.sigma, model_hbias / model.sigma, p, useCuda);
             
         if (params.verbose > 1),
             fprintf('.');
